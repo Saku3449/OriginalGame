@@ -46,10 +46,12 @@ public class UIController : MonoBehaviour
             Invoke("ChangeScene", 2.0f);
         }
         //ここまで
+    }
 
+    private void FixedUpdate()
+    {
         //ゴールテキストのカットイン
         goalText.transform.position += new Vector3(-1, 0, 0);
-       
     }
 
     private void ChangeScene()

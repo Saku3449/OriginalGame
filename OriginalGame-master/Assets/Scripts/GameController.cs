@@ -52,6 +52,7 @@ public class GameController : MonoBehaviour
             player2.transform.position = new Vector3(-10, 0, 0);
         }
         ball.transform.position = new Vector3(0, 0, 0);
+        isPlaying = true;
     }
 
     public int GetScore(int i)

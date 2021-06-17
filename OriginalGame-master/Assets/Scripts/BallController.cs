@@ -80,6 +80,7 @@ public class BallController : MonoBehaviour
             player2.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             //ポジションのリセット
             GameController gameController = gameMaster.GetComponent<GameController>();
+            controller.isPlaying = false;
             if(collision.name == "Goal1")
             {
                 controller.AddScore(1);
