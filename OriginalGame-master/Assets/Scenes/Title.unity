@@ -550,7 +550,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4a0c5794548054eb28610e4116dbb11a, type: 3}
-    m_FontSize: 170
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Lonner
+  m_Text: Soccer2
 --- !u!222 &1647275238
 CanvasRenderer:
   m_ObjectHideFlags: 0
